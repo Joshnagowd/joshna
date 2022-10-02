@@ -1,0 +1,43 @@
+<html>
+    <head>
+    <title>first program|home page</title>
+    </head>
+    <body>
+        <img src="./logo.png"/>
+        <a href="./index.html">Home</a>
+        <a href="./about.html">About</a>
+        <a href="./service.html">service</a>
+        <a href="./employee.html">employee</a>
+        <a href="./contact.html">contact</a>
+        <div>
+            <h1>Registration Page</h1>
+        </div>
+        <form>
+        <label>Email id</label>
+        <input type="email"/><br/><br/>
+        <label>DOB</label>
+        <input type="data"/><br/><br/>
+        <label>Mobile</label>
+        <input type="number"/><br/><br/>
+        <label>Gender</label>
+        <input type="radio"/>Male
+        <input type="radio"/>Female<br/><br/>
+        <label for =""></label>State</label>
+        <select>
+            <Option>AP</Option>
+            <Option>TS</Option>
+            <Option>TN</Option>
+            <Option>KT</Option>
+            <Option>MP</Option>
+            <Option>MR</Option>
+            <Option>UP</Option>
+
+
+        </select><br/>
+        <label>message</label>
+        <textarea cols="40" rows ="5"></textarea><br/><br/>
+        <input type="checkbox"/>please accept<a href="https://www.infosys.com">terms and conditions</a>
+        <br/>
+        <input type="Submit" value="Registration"/>
+        <input type="reset" value="Cancel"/>
+         </form></html>
